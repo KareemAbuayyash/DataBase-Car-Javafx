@@ -1,0 +1,10 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "codeLineCounter.includeDirs": [
+        "c:\\Users\\Kareem\\Desktop\\New folder (2)\\demo\\src\\main\\java\\com\\example"
+    ],
+    "codeLineCounter.excludePatterns": [
+        "**/node_modules/**",
+        "**/.git/**"
+    ]
+}

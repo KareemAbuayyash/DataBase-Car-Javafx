@@ -1,0 +1,119 @@
+/* Main application base styling */
+.root {
+    -fx-font-family: 'Arial', 'Helvetica Neue', sans-serif;  /* Clean, professional font */
+    -fx-base: #0d2e53;  /* Deep blue for the main background color */
+    -fx-background: #0c2338;  /* Very light blue background to enhance readability */
+    -fx-padding: 20px;    
+}
+
+/* Header styles */
+.header {
+    -fx-background-color: #0d2e53;  /* Strong blue for the header */
+    -fx-padding: 20px 40px;  /* Generous padding for a spacious header */
+    -fx-alignment: center;  /* Center-aligns content */
+    -fx-text-fill: #FFFFFF;  /* White text for high contrast */
+    -fx-font-size: 24px;  /* Clear, legible font size */
+    -fx-font-weight: bold;  /* Bold text to highlight header */
+    -fx-border-radius: 8px;  /* Rounded corners for modern touch */
+    /*shadow effect*/
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 6, 0.3, 0, 7);
+    
+   
+}
+
+/* Sidebar styles */
+/* Sidebar styles */
+.sidebar {
+    -fx-background-color: #0d2e53;  /* Muted blue for sidebar */
+    -fx-padding: 20px;  /* Comfortable padding */
+    -fx-spacing: 18px;  /* Spacing between items for clarity */
+    -fx-alignment: top-left;  /* Left-aligned for neat organization */
+    -fx-border-radius: 8px;  /* Rounded corners for modern look */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 0, 0, 7, 7);
+}
+
+
+/* Sidebar button styles */
+.sidebar-button {
+    -fx-background-color: #1e425f;  /* Light blue for the button */
+    -fx-text-fill: #FFFFFF;  /* White text for contrast */
+    -fx-font-weight: normal;  /* Normal font weight for simplicity */
+    -fx-padding: 16px 24px;  /* Spacious padding for usability */
+    -fx-font-size: 15px;  /* Medium font size for readability */
+    -fx-text-alignment: center;
+    -fx-alignment: center-left;
+    -fx-graphic-text-gap: 12px;  /* Adequate space between icons and text */
+    -fx-border-radius: 5px;  /* Rounded corners for soft appearance */
+    -fx-background-radius: 5px;
+    -fx-border: 1px solid #1E88E5;  /* Slightly darker blue border for structure */
+    -fx-pref-width: 170px;  /* Uniform width for consistency */
+    -fx-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);  
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.2, 6, 6);
+    -fx-transition: background-color 0.3s ease;  
+
+}
+
+/* Sidebar button hover effect */
+.sidebar-button:hover {
+    -fx-background-color: #2196F3;  /* Darker blue on hover */
+    -fx-text-fill: #FFFFFF;  /* White text for visibility */
+    -fx-transition: background-color 0.3s ease;  /* Smooth transition */
+    -fx-box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);  /* Darker shadow on hover */
+}
+
+/* Action and Edit Buttons with blue accent color */
+.action-button {
+    -fx-background-color: #153956;  /* Light blue for action buttons */
+    -fx-text-fill: #FFFFFF;  /* White text for contrast */
+    -fx-padding: 10px;  /* Comfortable padding for easy interaction */
+    -fx-font-size: 15px;  /* Standard font size for readability */
+    -fx-font-weight: normal;  /* Normal weight for consistency */
+    -fx-border-radius: 20px;  /* Rounded corners for sleek look */
+    -fx-background-radius: 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 6, 0.2, 0, 4);  /* Subtle shadow for depth */
+    -fx-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);  /* Light shadow for action buttons */
+    /*make siizee of button*/
+    -fx-pref-width: 150px;  /* Uniform width for consistency */
+}
+ .edit-button{
+    -fx-text-fill: #FFFFFF;  /* White text for contrast */
+    -fx-padding: 14px 24px;  /* Comfortable padding for easy interaction */
+    -fx-font-size: 16px;  /* Standard font size for readability */
+    -fx-font-weight: normal;  /* Normal weight for consistency */
+    -fx-border-radius: 20px;  /* Rounded corners for sleek look */
+    -fx-background-radius: 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 6, 0.2, 0, 4);  /* Subtle shadow for depth */
+    -fx-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);  /* Light shadow for action buttons */
+
+ }
+
+.action-button:hover, .edit-button:hover {
+    -fx-background-color: #42A5F5;  /* Darker blue for hover feedback */
+    -fx-transition: background-color 0.3s ease;  /* Smooth transition for hover effect */
+    -fx-box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);  /* Stronger shadow for hover effect */
+}
+
+/* Section Background Styling */
+.section-background {
+    -fx-background-color: #BBDEFB;  /* Very light blue for sections */
+    -fx-padding: 25px;  /* Generous padding for clarity */
+    -fx-border-radius: 10px;  /* Rounded corners for sleek design */
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 8, 0.2, 0, 6);  /* Soft shadow for depth */
+    -fx-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Subtle shadow for the section */
+}
+.text-field{
+    -fx-background-color: #0d2e53;  /* Light gray for text fields */
+    -fx-padding: 10px;  /* Comfortable padding for usability */
+    -fx-font-size: 12px;  /* Standard font size for readability */
+    -fx-border-radius: 5px;  /* Rounded corners for modern look */
+    -fx-background-radius: 10px;
+    -fx-border: 1px solid #E0E0E0;  /* Light gray border for structure */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 6, 0.2, 0, 4);  /* Soft shadow for depth */
+    -fx-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Light shadow for text fields */
+    /*make color prompt text white*/
+    -fx-prompt-text-fill: white;
+    -fx-text-fill: white;   
+
+}
+/* i need when selcting button from sidebar , it should be highlighted */
